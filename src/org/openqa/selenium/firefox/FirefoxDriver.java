@@ -211,6 +211,7 @@ public class FirefoxDriver extends RemoteWebDriver {
     FirefoxOptions options = new FirefoxOptions();
 
     if (capabilities == null) {
+      LOG.info(String.format("getFirefoxOptions() returning NULL"));
       return options;
     }
 
@@ -238,6 +239,7 @@ public class FirefoxDriver extends RemoteWebDriver {
       options.setLegacy(!(Boolean) marionette);
     }
 
+    LOG.info(String.format("getFirefoxOptions(%s) returning (%s)", capabilities.toString(), options.toString()));
     return options;
   }
 

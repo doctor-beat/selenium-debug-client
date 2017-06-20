@@ -17,6 +17,7 @@
 
 package org.openqa.selenium.remote;
 
+import static java.lang.String.format;
 import static org.openqa.selenium.remote.CapabilityType.LOGGING_PREFS;
 import static org.openqa.selenium.remote.CapabilityType.SUPPORTS_JAVASCRIPT;
 
@@ -175,6 +176,7 @@ public class RemoteWebDriver implements WebDriver, JavascriptExecutor,
   }
 
   private void init(Capabilities capabilities) {
+    logger.info(format("Init(%s)", capabilities.toString()));
     capabilities = capabilities == null ? new DesiredCapabilities() : capabilities;
 
     logger.addHandler(LoggingHandler.getInstance());
@@ -206,6 +208,7 @@ public class RemoteWebDriver implements WebDriver, JavascriptExecutor,
         logTypesToInclude);
     localLogs = LocalLogs.getCombinedLogsHolder(clientLogs, performanceLogger);
     remoteLogs = new RemoteLogs(executeMethod, localLogs);
+    logger.info(format("Init done"));
   }
 
   /**
@@ -239,6 +242,7 @@ public class RemoteWebDriver implements WebDriver, JavascriptExecutor,
   @SuppressWarnings({"unchecked"})
   protected void startSession(Capabilities desiredCapabilities,
       Capabilities requiredCapabilities) {
+    logger.info(format("startSession(%s, %s)", desiredCapabilities.toString(), requiredCapabilities));
     ImmutableMap.Builder<String, Capabilities> paramBuilder =
         new ImmutableMap.Builder<>();
     paramBuilder.put("desiredCapabilities", desiredCapabilities);
@@ -286,6 +290,8 @@ public class RemoteWebDriver implements WebDriver, JavascriptExecutor,
 
     capabilities = returnedCapabilities;
     sessionId = new SessionId(response.getSessionId());
+
+    logger.info(format("startSession done; cap = %s, new sessionsId: %s", capabilities.toString(), sessionId.toString()));
   }
 
   /**
@@ -293,6 +299,7 @@ public class RemoteWebDriver implements WebDriver, JavascriptExecutor,
    * implementation is a no-op, but subtypes should override this method to define custom behavior.
    */
   protected void startClient() {
+    logger.info("startClient = no-op");
   }
 
   /**
@@ -388,7 +395,7 @@ public class RemoteWebDriver implements WebDriver, JavascriptExecutor,
       String base64EncodedPng = new String((byte[]) result);
       return outputType.convertFromBase64Png(base64EncodedPng);
     } else {
-      throw new RuntimeException(String.format("Unexpected result for %s command: %s",
+      throw new RuntimeException(format("Unexpected result for %s command: %s",
           DriverCommand.SCREENSHOT,
           result == null ? "null" : result.getClass().getName() + " instance"));
     }
@@ -631,7 +638,7 @@ public class RemoteWebDriver implements WebDriver, JavascriptExecutor,
     long start = System.currentTimeMillis();
     String currentName = Thread.currentThread().getName();
     Thread.currentThread().setName(
-        String.format("Forwarding %s on session %s to remote", driverCommand, sessionId));
+        format("Forwarding %s on session %s to remote", driverCommand, sessionId));
     try {
       log(sessionId, command.getName(), command, When.BEFORE);
       response = executor.execute(command);
@@ -673,7 +680,7 @@ public class RemoteWebDriver implements WebDriver, JavascriptExecutor,
       if (parameters != null && parameters.containsKey("using") && parameters.containsKey("value")) {
         ex.addInfo(
             "*** Element info",
-            String.format(
+            format(
                 "{Using=%s, value=%s}",
                 parameters.get("using"),
                 parameters.get("value")));
@@ -1084,7 +1091,7 @@ public class RemoteWebDriver implements WebDriver, JavascriptExecutor,
     if (caps == null) {
       return super.toString();
     }
-    return String.format("%s: %s on %s (%s)", getClass().getSimpleName(),
+    return format("%s: %s on %s (%s)", getClass().getSimpleName(),
         caps.getBrowserName(), caps.getPlatform(), getSessionId());
   }
 }
