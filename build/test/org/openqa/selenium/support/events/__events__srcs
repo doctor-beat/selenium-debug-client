@@ -1,0 +1,6 @@
+java/client/src/org/openqa/selenium/support/events/AbstractWebDriverEventListener.java
+java/client/src/org/openqa/selenium/support/events/EventFiringWebDriver.java
+java/client/src/org/openqa/selenium/support/events/WebDriverEventListener.java
+java/client/src/org/openqa/selenium/support/events/internal/EventFiringKeyboard.java
+java/client/src/org/openqa/selenium/support/events/internal/EventFiringMouse.java
+java/client/src/org/openqa/selenium/support/events/internal/EventFiringTouch.java

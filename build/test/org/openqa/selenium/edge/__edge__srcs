@@ -1,0 +1,3 @@
+java/client/src/org/openqa/selenium/edge/EdgeDriver.java
+java/client/src/org/openqa/selenium/edge/EdgeDriverService.java
+java/client/src/org/openqa/selenium/edge/EdgeOptions.java

@@ -1,0 +1,8 @@
+java/client/src/com/thoughtworks/selenium/condition/Condition.java
+java/client/src/com/thoughtworks/selenium/condition/ConditionRunner.java
+java/client/src/com/thoughtworks/selenium/condition/DefaultConditionRunner.java
+java/client/src/com/thoughtworks/selenium/condition/JUnit4AndTestNgConditionRunner.java
+java/client/src/com/thoughtworks/selenium/condition/JUnitConditionRunner.java
+java/client/src/com/thoughtworks/selenium/condition/Not.java
+java/client/src/com/thoughtworks/selenium/condition/Presence.java
+java/client/src/com/thoughtworks/selenium/condition/Text.java

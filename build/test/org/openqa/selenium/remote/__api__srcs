@@ -1,0 +1,5 @@
+java/client/src/org/openqa/selenium/remote/Augmentable.java
+java/client/src/org/openqa/selenium/remote/Command.java
+java/client/src/org/openqa/selenium/remote/CommandExecutor.java
+java/client/src/org/openqa/selenium/remote/Response.java
+java/client/src/org/openqa/selenium/remote/SessionId.java

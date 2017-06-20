@@ -1,0 +1,4 @@
+java/client/src/org/openqa/selenium/safari/ConnectionClosedException.java
+java/client/src/org/openqa/selenium/safari/SafariDriver.java
+java/client/src/org/openqa/selenium/safari/SafariDriverService.java
+java/client/src/org/openqa/selenium/safari/SafariOptions.java

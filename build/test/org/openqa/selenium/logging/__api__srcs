@@ -1,0 +1,4 @@
+java/client/src/org/openqa/selenium/logging/LogEntries.java
+java/client/src/org/openqa/selenium/logging/LogEntry.java
+java/client/src/org/openqa/selenium/logging/LoggingPreferences.java
+java/client/src/org/openqa/selenium/logging/Logs.java

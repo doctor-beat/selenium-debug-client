@@ -1,0 +1,2 @@
+org/openqa/selenium/interactions/InvalidCoordinatesException 75607af49155bc4d6781f120c4b451e5b3d095cd
+org/openqa/selenium/interactions/MoveTargetOutOfBoundsException 170b7fc480527b47a87f010df196cf97f3ed1385

@@ -1,0 +1,16 @@
+java/client/src/org/openqa/selenium/firefox/ExtensionConnection.java
+java/client/src/org/openqa/selenium/firefox/FirefoxBinary.java
+java/client/src/org/openqa/selenium/firefox/FirefoxDriver.java
+java/client/src/org/openqa/selenium/firefox/FirefoxOptions.java
+java/client/src/org/openqa/selenium/firefox/FirefoxProfile.java
+java/client/src/org/openqa/selenium/firefox/GeckoDriverService.java
+java/client/src/org/openqa/selenium/firefox/NotConnectedException.java
+java/client/src/org/openqa/selenium/firefox/Preferences.java
+java/client/src/org/openqa/selenium/firefox/UnableToCreateProfileException.java
+java/client/src/org/openqa/selenium/firefox/XpiDriverService.java
+java/client/src/org/openqa/selenium/firefox/internal/ClasspathExtension.java
+java/client/src/org/openqa/selenium/firefox/internal/Executable.java
+java/client/src/org/openqa/selenium/firefox/internal/Extension.java
+java/client/src/org/openqa/selenium/firefox/internal/FileExtension.java
+java/client/src/org/openqa/selenium/firefox/internal/NewProfileExtensionConnection.java
+java/client/src/org/openqa/selenium/firefox/internal/ProfilesIni.java

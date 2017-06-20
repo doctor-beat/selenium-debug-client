@@ -1,0 +1,14 @@
+java/client/src/org/openqa/selenium/interactions/Action.java
+java/client/src/org/openqa/selenium/interactions/Encodable.java
+java/client/src/org/openqa/selenium/interactions/HasInputDevices.java
+java/client/src/org/openqa/selenium/interactions/HasTouchScreen.java
+java/client/src/org/openqa/selenium/interactions/InputSource.java
+java/client/src/org/openqa/selenium/interactions/Interaction.java
+java/client/src/org/openqa/selenium/interactions/Interactive.java
+java/client/src/org/openqa/selenium/interactions/Keyboard.java
+java/client/src/org/openqa/selenium/interactions/Mouse.java
+java/client/src/org/openqa/selenium/interactions/Pause.java
+java/client/src/org/openqa/selenium/interactions/Sequence.java
+java/client/src/org/openqa/selenium/interactions/SourceType.java
+java/client/src/org/openqa/selenium/interactions/TouchScreen.java
+java/client/src/org/openqa/selenium/interactions/internal/Coordinates.java

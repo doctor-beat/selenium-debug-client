@@ -1,0 +1,4 @@
+java/client/src/com/thoughtworks/selenium/CommandProcessor.java
+java/client/src/com/thoughtworks/selenium/Selenium.java
+java/client/src/com/thoughtworks/selenium/SeleniumException.java
+java/client/src/com/thoughtworks/selenium/Wait.java

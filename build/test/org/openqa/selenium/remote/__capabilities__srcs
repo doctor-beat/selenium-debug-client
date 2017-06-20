@@ -1,0 +1,3 @@
+java/client/src/org/openqa/selenium/remote/BrowserType.java
+java/client/src/org/openqa/selenium/remote/CapabilityType.java
+java/client/src/org/openqa/selenium/remote/DesiredCapabilities.java

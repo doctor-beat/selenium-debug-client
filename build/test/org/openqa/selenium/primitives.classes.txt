@@ -1,0 +1,3 @@
+org/openqa/selenium/Dimension c9affed0958633f3a85ef25ffe44aabc13b4622d
+org/openqa/selenium/Point 332d7f3194ad6a03a95ead8e284c0cc9c1b6d2a3
+org/openqa/selenium/Rectangle bc27561b140bc4e35ad511eba4d3fe764fbb9a2f

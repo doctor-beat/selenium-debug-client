@@ -1,0 +1,4 @@
+java/client/src/org/openqa/selenium/support/ui/ISelect.java
+java/client/src/org/openqa/selenium/support/ui/Quotes.java
+java/client/src/org/openqa/selenium/support/ui/Select.java
+java/client/src/org/openqa/selenium/support/ui/UnexpectedTagNameException.java

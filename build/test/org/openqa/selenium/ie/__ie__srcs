@@ -1,0 +1,5 @@
+java/client/src/org/openqa/selenium/ie/InternetExplorerDriver.java
+java/client/src/org/openqa/selenium/ie/InternetExplorerDriverEngine.java
+java/client/src/org/openqa/selenium/ie/InternetExplorerDriverLogLevel.java
+java/client/src/org/openqa/selenium/ie/InternetExplorerDriverService.java
+java/client/src/org/openqa/selenium/ie/InternetExplorerOptions.java

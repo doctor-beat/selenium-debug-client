@@ -1,0 +1,2 @@
+org/openqa/selenium/security/Credentials bdcf470b3602537645c1fd083864e8337c30bafa
+org/openqa/selenium/security/UserAndPassword 19ee77b4783f074725cd0cb6413e392f7eb943a7

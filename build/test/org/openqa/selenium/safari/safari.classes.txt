@@ -1,0 +1,6 @@
+org/openqa/selenium/safari/ConnectionClosedException e8af99583b6940de445a06a8101c66eb78d35f62
+org/openqa/selenium/safari/SafariDriver 6f55dcda05585bee06e35e55437af9e8a6978ffd
+org/openqa/selenium/safari/SafariDriverService e619a9e60dd747f8a45c13216cbc24b24cc0bd1d
+org/openqa/selenium/safari/SafariDriverService$Builder 2859cf4a7f7557db04d307776f4ae07d0657676a
+org/openqa/selenium/safari/SafariOptions 95f98d0135ee7961e048e6aaa9ec1bb1ddc6e352
+org/openqa/selenium/safari/SafariOptions$Option 3950a88671bc9ee678170af9e21df6cdb02d2673

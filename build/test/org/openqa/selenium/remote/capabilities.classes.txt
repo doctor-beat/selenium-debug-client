@@ -1,0 +1,4 @@
+org/openqa/selenium/remote/BrowserType 3894d233004c65e0a9fde56d111f47803f41906a
+org/openqa/selenium/remote/CapabilityType e096f5ece6f53c581783fb6997d564d8373a4e61
+org/openqa/selenium/remote/CapabilityType$ForSeleniumServer 04bbab543d55806f3ff4fe18b2168cc3103fba05
+org/openqa/selenium/remote/DesiredCapabilities 06b1d9c7f154bb51aeb08b9c4edbcc5f2efd1f3c

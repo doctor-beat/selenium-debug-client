@@ -1,0 +1,10 @@
+java/client/src/com/thoughtworks/selenium/BrowserConfigurationOptions.java
+java/client/src/com/thoughtworks/selenium/DefaultRemoteCommand.java
+java/client/src/com/thoughtworks/selenium/DefaultSelenium.java
+java/client/src/com/thoughtworks/selenium/HttpCommandProcessor.java
+java/client/src/com/thoughtworks/selenium/RemoteCommand.java
+java/client/src/com/thoughtworks/selenium/ScreenshotListener.java
+java/client/src/com/thoughtworks/selenium/SeleneseTestBase.java
+java/client/src/com/thoughtworks/selenium/SeleneseTestCase.java
+java/client/src/com/thoughtworks/selenium/SeleneseTestNgHelper.java
+java/client/src/com/thoughtworks/selenium/SeleniumLogLevels.java

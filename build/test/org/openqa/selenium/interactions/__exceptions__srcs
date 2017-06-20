@@ -1,0 +1,2 @@
+java/client/src/org/openqa/selenium/interactions/InvalidCoordinatesException.java
+java/client/src/org/openqa/selenium/interactions/MoveTargetOutOfBoundsException.java

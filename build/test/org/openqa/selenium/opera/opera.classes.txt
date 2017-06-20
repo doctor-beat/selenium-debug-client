@@ -1,0 +1,4 @@
+org/openqa/selenium/opera/OperaDriver 8306e8dd4b8fcd0f6801c5acc43c8c5c4ae9e168
+org/openqa/selenium/opera/OperaDriverService 2c2310dd13db8c57a8e3673637ae38311b1b32d2
+org/openqa/selenium/opera/OperaDriverService$Builder 48c76e1a3a3e0f8f14103290914da9dcea965c80
+org/openqa/selenium/opera/OperaOptions aa0c09b1eda1e7c37f529cb000cfc34042b6aa8d

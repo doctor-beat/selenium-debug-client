@@ -1,0 +1,5 @@
+java/client/src/org/openqa/selenium/io/CircularOutputStream.java
+java/client/src/org/openqa/selenium/io/FileHandler.java
+java/client/src/org/openqa/selenium/io/MultiOutputStream.java
+java/client/src/org/openqa/selenium/io/TemporaryFilesystem.java
+java/client/src/org/openqa/selenium/io/Zip.java
